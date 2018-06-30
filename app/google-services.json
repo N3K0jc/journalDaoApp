@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "265092947789",
+    "firebase_url": "https://journalapp-76133.firebaseio.com",
+    "project_id": "journalapp-76133",
+    "storage_bucket": "journalapp-76133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265092947789:android:8eda8759dfce1df5",
+        "android_client_info": {
+          "package_name": "com.android.kolawoletech.journaldaoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265092947789-76bo5ivohq0e40f60h4rlkco370hec7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO8Wt4T8H-DaXe_g80anQ8OCmVI_JeQrA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265092947789:android:120a27b39aa23f14",
+        "android_client_info": {
+          "package_name": "com.kolawoletech.android.journal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265092947789-76bo5ivohq0e40f60h4rlkco370hec7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO8Wt4T8H-DaXe_g80anQ8OCmVI_JeQrA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265092947789:android:cd26ff9b219f3020",
+        "android_client_info": {
+          "package_name": "com.kolawoletech.android.journaldaoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265092947789-76bo5ivohq0e40f60h4rlkco370hec7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO8Wt4T8H-DaXe_g80anQ8OCmVI_JeQrA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
