@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.android.kolawoletech.journaldaoapp">
 
+<uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
@@ -10,16 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.android.kolawoletech.journaldaoapp.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MainActivity">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".AddJournalActivity"
-            android:label="@string/add_journal_activity_name" ></activity>
+            android:label="@string/add_journal_activity_name" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/label_google_sign_in" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
     </application>
 
 </manifest>
