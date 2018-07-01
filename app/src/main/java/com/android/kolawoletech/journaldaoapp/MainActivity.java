@@ -137,8 +137,8 @@ public class MainActivity extends AppCompatActivity implements JournalAdapter.It
             case R.id.home:
                 startActivity(new Intent(this, MainActivity.class));
                 return true;
-            case R.id.profile:
-                startActivity(new Intent(this, LoginActivity.class));
+            case R.id.profile_layout:
+                startActivity(new Intent(this, ProfileActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
