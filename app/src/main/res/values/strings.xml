@@ -3,18 +3,18 @@
     <string name="main_activity_name">All Journals</string>
     <string name="add_journal_activity_name">Add a New Journal Entry</string>
     <!-- Strings for MainActivity -->
-    <string name="priority_1">1</string>
-    <string name="priority_2">2</string>
-    <string name="priority_3">3</string>
+    <string name="priority_1">Lovely</string>
+    <string name="priority_2">Routine</string>
+    <string name="priority_3">Aaargh</string>
 
     <!-- Strings for AddJournalActivity -->
     <!-- This etaskEntrytask has a unicode character for "..." = "&#8230;" -->
-    <string name="edit_journal_description">Describe your taskEntry&#8230;</string>
-    <string name="priority_string">Priority</string>
-    <string name="high_priority">High</string>
-    <string name="med_priority">Medium</string>
-    <string name="low_priority">Low</string>
-
+    <string name="edit_journal_description">Describe your Journal Entry&#8230;</string>
+    <string name="priority_string">Significance</string>
+    <string name="high_priority">Life Changing</string>
+    <string name="med_priority">Normal</string>
+    <string name="low_priority">Awful</string>
+    <string name="home">Home</string>
     <string name="add_button">Add</string>
     <string name="update_button">Update</string>
 
@@ -60,6 +60,7 @@
     <string name="signed_out">Signed Out</string>
     <string name="token_null">Token: null</string>
     <string name="hint_email">Email</string>
+    <string name="profile">Profile</string>
     <string name="profile_picture">Profile Pic</string>
     <string name="hint_password">Password</string>
     <string name="desc_firebase_lockup">Firebase logo and name</string>

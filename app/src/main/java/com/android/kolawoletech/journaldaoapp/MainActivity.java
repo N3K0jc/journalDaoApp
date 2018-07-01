@@ -16,6 +16,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.android.kolawoletech.journaldaoapp.database.AppDatabase;
@@ -84,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements JournalAdapter.It
         /*
          Set the Floating Action Button (FAB) to its corresponding View.
          Attach an OnClickListener to it, so that when it's clicked, a new intent will be created
-         to launch the AddTaskActivity.
+         to launch the AddJournalActibity
          */
         FloatingActionButton fabButton = findViewById(R.id.fab);
 
@@ -118,5 +121,27 @@ public class MainActivity extends AppCompatActivity implements JournalAdapter.It
         Intent intent = new Intent(MainActivity.this, AddJournalActivity.class);
         intent.putExtra(AddJournalActivity.EXTRA_JOURNAL_ID, itemId);
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.home:
+                startActivity(new Intent(this, MainActivity.class));
+                return true;
+            case R.id.profile:
+                startActivity(new Intent(this, LoginActivity.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
